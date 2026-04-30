@@ -31,7 +31,7 @@
     padding-left: 20px;
     margin-bottom: 25px;
 }
-input{
+input{ // styling of input tag
     flex: 1;
     border: none;
     outline: none;
