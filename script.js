@@ -44,7 +44,7 @@ listContainer.addEventListener("click", function(e) {
 }, false);
 
 // Persist current list markup into localStorage under the key "data".
-function saveData() {
+function saveData() { // add function to save data after additon
     localStorage.setItem("data", listContainer.innerHTML);
 }
 
