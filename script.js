@@ -1,5 +1,5 @@
 // Grab references to the input field and the list <ul> (or <ol>) where tasks will appear.
-const inputBox = document.getElementById("input-box");
+const inputBox = document.getElementById("input-box"); // to get input box from id
 const listContainer = document.getElementById("list-container");
 
 // Called when the user adds a new task (likely wired to a button onclick or Enter key).
