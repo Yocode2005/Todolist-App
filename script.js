@@ -3,7 +3,7 @@ const inputBox = document.getElementById("input-box"); // to get input box from 
 const listContainer = document.getElementById("list-container");
 
 // Called when the user adds a new task (likely wired to a button onclick or Enter key).
-function addTask() {
+function addTask() { // function to add new task in toodo
     // If the input is empty, warn the user and do nothing else.
     if (inputBox.value === '') {
         alert("you must write something ! ");
