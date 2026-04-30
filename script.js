@@ -54,4 +54,4 @@ function showTask() {
 }
 
 // Immediately load any previously saved tasks when the script runs.
-showTask();
+showTask(); // to show data
