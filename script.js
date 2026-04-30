@@ -26,7 +26,7 @@ function addTask() { // function to add new task in toodo
     // Clear the input box so the user can type another task.
     inputBox.value = '';
     // Save the current list HTML to localStorage so tasks persist on reload.
-    saveData();
+    saveData(); // to save the current list in localstorage
 }
 
 // Event delegation: listen for clicks anywhere inside the list container.
