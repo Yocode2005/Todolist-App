@@ -1,9 +1,9 @@
 // Grab references to the input field and the list <ul> (or <ol>) where tasks will appear.
-const inputBox = document.getElementById("input-box"); // to get input box from id
+const inputBox = document.getElementById("input-box"); 
 const listContainer = document.getElementById("list-container");
 
 // Called when the user adds a new task (likely wired to a button onclick or Enter key).
-function addTask() { // function to add new task in toodo
+function addTask() { 
     // If the input is empty, warn the user and do nothing else.
     if (inputBox.value === '') {
         alert("you must write something ! ");
